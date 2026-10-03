@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="EUWNLw64hGMf_vyL9wno">
+    <mxGraphModel dx="1627" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dft1qtRmk6ew-lMYQw1N-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Classes&lt;div&gt;- Constrctore&lt;/div&gt;&lt;div&gt;- Attribute&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;- Instance Varible&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- Static varible&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Constant&lt;/span&gt;&amp;nbsp;Public static final&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- Methods (Operations)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - Instnce&amp;nbsp; method - instance specific&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - Static Mrhtods - non instce specific&amp;nbsp;&lt;br&gt;&lt;br&gt;Releationship&lt;br&gt;&amp;nbsp; &amp;nbsp; - Is a releationship&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - INheritace - Genralization and Specilization&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - Has&amp;nbsp; relationship&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; - Association&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Composition - strongest form of relation&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Aggrigation&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- Dependency - Weakest form the relation&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="470" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dft1qtRmk6ew-lMYQw1N-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Human" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="dft1qtRmk6ew-lMYQw1N-5" edge="1" parent="1" source="dft1qtRmk6ew-lMYQw1N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=diamond;endFill=1;" target="dft1qtRmk6ew-lMYQw1N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dft1qtRmk6ew-lMYQw1N-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Heatr" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="dft1qtRmk6ew-lMYQw1N-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Whole" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="dft1qtRmk6ew-lMYQw1N-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Part" vertex="1">
+          <mxGeometry height="30" width="60" x="515" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="dft1qtRmk6ew-lMYQw1N-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Composition" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
