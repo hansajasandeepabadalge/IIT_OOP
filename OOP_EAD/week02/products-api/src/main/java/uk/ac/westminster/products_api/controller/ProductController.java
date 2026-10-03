@@ -3,7 +3,7 @@ package uk.ac.westminster.products_api.controller;
 import org.springframework.web.bind.annotation.*;
 import uk.ac.westminster.products_api.dto.Product;
 
-@RestController //
+@RestController
 @RequestMapping("/products")
 public class ProductController {
 
