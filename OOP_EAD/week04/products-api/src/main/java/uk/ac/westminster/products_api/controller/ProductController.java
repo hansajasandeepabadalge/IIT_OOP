@@ -15,23 +15,20 @@ public class ProductController {
     private ProductService productService;
 
     @GetMapping
-    public List<Product> getAllProducts() {
+    public List<Product> getProducts() {
         return productService.getProducts();
     }
 
-    @GetMapping("/{id}")
-    public Product getProductById(@PathVariable Long id) {
-        return productService.getProductById(id).orElse(null);
-    }
-
     @PostMapping
-    public Product saveProduct(@RequestBody Product product) {
+    public Product addProduct(@RequestBody Product product) {
+        System.out.println(product.getClass().getSimpleName());
         return productService.addProduct(product);
     }
 
-    @DeleteMapping("/{id}")
-    public String deleteProductById(@PathVariable Long id) {
-        return productService.deleteProduct(id);
+    @GetMapping("/search")
+    public List<Product> getProductsByName(
+            @RequestParam String name) {
+        return productService.findProductsByName(name);
     }
 
 }

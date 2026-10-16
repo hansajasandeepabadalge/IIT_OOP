@@ -1,5 +1,19 @@
 package uk.ac.westminster.products_api.dto;
 
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+
+// Automatically identifies the correct subclass based on the JSON properties.
+// For example, Jackson can distinguish a DigitalProduct from a PhysicalProduct
+// by examining their unique fields without requiring a "type" property.
+@JsonTypeInfo(use = JsonTypeInfo.Id.DEDUCTION)
+
+// Defines the subclasses that Jackson can recognize when converting JSON
+// into Java objects.
+@JsonSubTypes({
+        @JsonSubTypes.Type(DigitalProduct.class),
+        @JsonSubTypes.Type(PhysicalProduct.class)
+})
 public class Product {
     private Long id;
     private String name;
