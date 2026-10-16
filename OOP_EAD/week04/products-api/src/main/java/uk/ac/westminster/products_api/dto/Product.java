@@ -3,7 +3,13 @@ package uk.ac.westminster.products_api.dto;
 public class Product {
     private Long id;
     private String name;
-    private Double price;
+    protected Double price;
+
+    public Product(Long id, String name, double price) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
 
     public Long getId() {
         return id;
@@ -26,6 +32,9 @@ public class Product {
     }
 
     public void setPrice(Double price) {
+        if (price < 0) {
+            throw new IllegalArgumentException("Price can't be negative");
+        }
         this.price = price;
     }
 }
